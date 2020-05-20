@@ -3,6 +3,7 @@ import dotEnv from "dotenv";
 import bodyParser from "body-parser";
 import chalk from "chalk";
 import authController from "../controller/authController.js";
+import projectController from "../controller/projectController.js";
 
 dotEnv.config();
 
@@ -13,6 +14,7 @@ const { PORT } = process.env;
 appExpress.use(bodyParser.json());
 appExpress.use(bodyParser.urlencoded({ extended: false }));
 appExpress.use(authController);
+appExpress.use(projectController);
 
 appExpress.listen(PORT, () => {
   console.log(
