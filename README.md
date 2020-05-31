@@ -28,8 +28,8 @@ $ yarn prodution
 
 ## Aluno
 
-* #### [Eric Silva Mendes](https://github.com/eric218110/)
+#### [Eric Silva Mendes](https://github.com/eric218110/)
 
 ## Professor
 
-* #### [Allyson Jeronimo](https://github.com/allysonjeronimo)
+#### [Allyson Jeronimo](https://github.com/allysonjeronimo)

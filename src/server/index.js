@@ -2,8 +2,8 @@ import express from "express";
 import dotEnv from "dotenv";
 import bodyParser from "body-parser";
 import chalk from "chalk";
-import authController from "../controller/authController.js";
-import projectController from "../controller/projectController.js";
+import authController from "../app/controller/authController.js";
+import projectController from "../app/controller/projectController.js";
 
 dotEnv.config();
 
